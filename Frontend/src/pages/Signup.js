@@ -28,7 +28,7 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3001/register',{name, phone, password})
+    axios.post('https://bongojourneyai.onrender.com/register',{name, phone, password})
     .then(result=>console.log(result))
     .catch(err=>console.log(err))
   }

@@ -37,7 +37,7 @@ const ProfileUpdatePage = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:3001/update-profile', {
+      const response = await fetch('https://bongojourneyai.onrender.com/update-profile', {
         method: 'POST',
         body: formData,
       });
